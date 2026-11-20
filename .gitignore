@@ -1,0 +1,10 @@
+# Everything personal: database, profile, LinkedIn session, resumes it writes
+data/
+.env
+*.db
+*.log
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

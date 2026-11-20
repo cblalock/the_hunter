@@ -1,0 +1,13 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+sqlalchemy>=2.0.36
+python-jobspy>=1.1.80
+anthropic>=0.70
+python-dotenv>=1.0
+pydantic>=2.10
+fpdf2>=2.8
+python-docx>=1.1
+apscheduler>=3.10,<4
+playwright>=1.49
+requests>=2.31
+pytest>=8

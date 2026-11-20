@@ -1,0 +1,23 @@
+{
+  "_comment": "Fake sample candidate. Copied to data/applicant_profile.json on first run; edit that copy with your own facts.",
+  "facts": {
+    "name": "Alex Rivera",
+    "location": "Columbus, OH",
+    "email": "alex.rivera@example.com",
+    "work_authorization": "Authorized to work in the US; does not require sponsorship",
+    "willing_to_relocate": "No",
+    "education": "B.S. in Information Systems, 2025",
+    "certifications": ["CompTIA A+"],
+    "years_experience": {
+      "SQL": 2,
+      "Python": 2,
+      "Excel": 4,
+      "Tableau": 1,
+      "IT support / help desk": 3,
+      "Active Directory": 1
+    },
+    "eeo": "Prefers not to answer all voluntary self-identification questions"
+  },
+  "saved_answers": {},
+  "pending_questions": {}
+}
