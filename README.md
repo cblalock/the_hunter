@@ -87,3 +87,7 @@ tests/                    filters, ranking, tracks (pytest)
 Automated access to LinkedIn may conflict with its terms of service. Logged-in search is opt-in, paced, and read-only; use it at your own discretion. Without a saved session, LinkedIn is searched through jobspy's public search like the other boards.
 
 Run the tests with `pytest`.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
