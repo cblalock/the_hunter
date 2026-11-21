@@ -1,5 +1,5 @@
 @echo off
-rem Starts The Hunter in the background (if it isn't already running) and opens it in the browser.
+rem Starts the_hunter in the background (if it isn't already running) and opens it in the browser.
 cd /d "%~dp0"
 powershell -NoProfile -Command ^
   "try { Invoke-WebRequest -UseBasicParsing http://localhost:8000/api/settings -TimeoutSec 2 | Out-Null; exit 0 } catch { exit 1 }"

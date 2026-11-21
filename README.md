@@ -1,4 +1,4 @@
-# The Hunter
+# the_hunter
 
 A local job-search assistant. On a daily schedule or on demand, it searches job boards, throws out the junk, ranks what's left by how likely an application is to get a response, picks (or tailors) the right resume, and drafts answers to screening questions. Then you open the best postings and apply yourself.
 
@@ -50,7 +50,7 @@ Open http://localhost:8000. The demo uses a made-up candidate (`examples/`) and 
 
 Everything personal (database, profile, LinkedIn session, generated resumes) lives in `data/`, which is git-ignored.
 
-On Windows, `Start The Hunter.bat` / `Stop The Hunter.bat` run it in the background.
+On Windows, `start_the_hunter.bat` / `stop_the_hunter.bat` run it in the background.
 
 ## How it's built
 

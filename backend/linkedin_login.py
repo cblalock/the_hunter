@@ -5,7 +5,7 @@ Save a logged-in LinkedIn browser session for search.
 
 Opens a normal browser window: log in by hand (including any security check), then come back
 and press Enter. The session cookies are saved to data/linkedin_session.json, which stays on
-your machine (git-ignored). The Hunter never sees or stores your password.
+your machine (git-ignored). the_hunter never sees or stores your password.
 """
 from playwright.sync_api import sync_playwright
 

@@ -30,7 +30,7 @@ async def lifespan(app: FastAPI):
     stop_scheduler()
 
 
-app = FastAPI(title="The Hunter", description="Job search, ranking and resume tailoring", lifespan=lifespan)
+app = FastAPI(title="the_hunter", description="Job search, ranking and resume tailoring", lifespan=lifespan)
 
 app.include_router(jobs.router, prefix="/api")
 app.include_router(resume.router, prefix="/api")
